@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="28b2d411-2ffe-4119-a4db-b58d77292847" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\maven\repository" />
+        <option name="mavenHome" value="G:/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="G:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VBMJJ3sBuFaRmgNWMn9YCH6gbZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.consumer" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Send3">
+    <configuration name="GetMsg2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.consumer.GetMsg2" />
+      <module name="rabbitmqdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetMsg3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.consumer.GetMsg3" />
+      <module name="rabbitmqdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetMsg4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.consumer.GetMsg4" />
+      <module name="rabbitmqdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Send1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.provider.Send1" />
+      <module name="rabbitmqdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Send3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.provider.Send3" />
+      <module name="rabbitmqdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Send3" />
+        <item itemvalue="Application.GetMsg4" />
+        <item itemvalue="Application.GetMsg3" />
+        <item itemvalue="Application.Send1" />
+        <item itemvalue="Application.GetMsg2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28b2d411-2ffe-4119-a4db-b58d77292847" name="Default Changelist" comment="" />
+      <created>1576721961775</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576721961775</updated>
+      <workItem from="1576721991824" duration="1696000" />
+      <workItem from="1576737803434" duration="5000" />
+      <workItem from="1576737821901" duration="6352000" />
+      <workItem from="1576802395490" duration="1937000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="304" y="0" key="CommitChangelistDialog2" timestamp="1576830796568">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="304" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1576830796568" />
+    <state x="530" y="107" key="FileChooserDialogImpl" timestamp="1576830714399">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="530" y="107" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1576830714399" />
+    <state width="1551" height="185" key="GridCell.Tab.0.bottom" timestamp="1576748558617">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1551" height="185" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1576748558617" />
+    <state width="1551" height="185" key="GridCell.Tab.0.center" timestamp="1576748558616">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1551" height="185" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1576748558616" />
+    <state width="1551" height="185" key="GridCell.Tab.0.left" timestamp="1576748558616">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1551" height="185" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1576748558616" />
+    <state width="1551" height="185" key="GridCell.Tab.0.right" timestamp="1576748558616">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1551" height="185" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1576748558616" />
+    <state x="177" y="0" key="SettingsEditor" timestamp="1576830829592">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="177" y="0" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1576830829592" />
+    <state x="92" y="92" width="1416" height="676" key="dock-window-1" timestamp="1576740663860">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="92" y="92" width="1416" height="676" key="dock-window-1/0.0.1600.860@0.0.1600.860" timestamp="1576740663860" />
+  </component>
+</project>
