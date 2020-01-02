@@ -16,7 +16,7 @@ import java.util.concurrent.TimeoutException;
  * @author 76519
  *
  */
-public class GetMsgBySend4 {
+public class GetMsg5BySend4 {
     private final static String queue_name="test_work_queue";
     public static void main(String[] args) throws IOException, TimeoutException {
         //1、建立连接

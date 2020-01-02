@@ -1,25 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28b2d411-2ffe-4119-a4db-b58d77292847" name="Default Changelist" comment="新增了消息应答(autoAck)、队列持久化(durable)以及消息持久化">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/consumer/GetMsgBySend4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/provider/Send4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/rabbitmqdemo.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/consumer/GetMsgBySend4$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/consumer/GetMsgBySend4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/provider/Send4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/rabbitmqdemo.kotlin_module" afterDir="false" />
+    <list default="true" id="28b2d411-2ffe-4119-a4db-b58d77292847" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/consumer/GetMsg6BySend5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/consumer/GetMsg7BySend5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/provider/Send5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/provider/Send5.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/provider/Send1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/provider/Send2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/consumer/GetMsg4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/consumer/GetMsg4$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/consumer/GetMsg4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/consumer/GetMsg4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/provider/Send1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/provider/Send2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/consumer/GetMsgBySend4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/consumer/GetMsg5BySend4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/consumer/GetMsgBySend4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/consumer/GetMsgBySend4$1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,14 +70,15 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.30174792" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example.consumer" />
+      <recent name="org.example.provider" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GetMsgBySend4">
+  <component name="RunManager" selected="Application.Send5">
     <configuration name="GetMsg3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.consumer.GetMsg3" />
       <module name="rabbitmqdemo" />
@@ -115,25 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetMsgBySend4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.consumer.GetMsgBySend4" />
+    <configuration name="GetMsg5BySend4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.consumer.GetMsg5BySend4" />
       <module name="rabbitmqdemo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.consumer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Send3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.provider.Send3" />
-      <module name="rabbitmqdemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.provider.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,13 +131,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Send5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.provider.Send5" />
+      <module name="rabbitmqdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GetMsgBySend4" />
+        <item itemvalue="Application.Send5" />
+        <item itemvalue="Application.GetMsg5BySend4" />
         <item itemvalue="Application.Send4" />
         <item itemvalue="Application.GetMsg3" />
         <item itemvalue="Application.GetMsg4" />
-        <item itemvalue="Application.Send3" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +183,7 @@
       <workItem from="1576830696772" duration="1000000" />
       <workItem from="1577092182935" duration="183000" />
       <workItem from="1577926455101" duration="1970000" />
-      <workItem from="1577928813152" duration="13328000" />
+      <workItem from="1577928813152" duration="16229000" />
     </task>
     <task id="LOCAL-00001" summary="消息队列的demo">
       <created>1576830882551</created>
@@ -202,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576830882551</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="新增了消息应答(autoAck)、队列持久化(durable)以及消息持久化">
+      <created>1577954122006</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577954122006</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,38 +211,38 @@
     <option name="LAST_COMMIT_MESSAGE" value="新增了消息应答(autoAck)、队列持久化(durable)以及消息持久化" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="304" y="0" key="CommitChangelistDialog2" timestamp="1577954085693">
+    <state x="304" y="0" key="CommitChangelistDialog2" timestamp="1577954119994">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="304" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1577954085693" />
+    <state x="304" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1577954119994" />
     <state x="530" y="107" key="FileChooserDialogImpl" timestamp="1577953945050">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="107" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1577953945050" />
-    <state width="1551" height="185" key="GridCell.Tab.0.bottom" timestamp="1577948130097">
+    <state width="1551" height="185" key="GridCell.Tab.0.bottom" timestamp="1577958527815">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1551" height="185" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1577948130097" />
-    <state width="1551" height="185" key="GridCell.Tab.0.center" timestamp="1577948130097">
+    <state width="1551" height="185" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1577958527815" />
+    <state width="1551" height="185" key="GridCell.Tab.0.center" timestamp="1577958527815">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1551" height="185" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1577948130097" />
-    <state width="1551" height="185" key="GridCell.Tab.0.left" timestamp="1577948130097">
+    <state width="1551" height="185" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1577958527815" />
+    <state width="1551" height="185" key="GridCell.Tab.0.left" timestamp="1577958527815">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1551" height="185" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1577948130097" />
-    <state width="1551" height="185" key="GridCell.Tab.0.right" timestamp="1577948130097">
+    <state width="1551" height="185" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1577958527815" />
+    <state width="1551" height="185" key="GridCell.Tab.0.right" timestamp="1577958527815">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1551" height="185" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1577948130097" />
-    <state x="177" y="0" key="SettingsEditor" timestamp="1577936537888">
+    <state width="1551" height="185" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1577958527815" />
+    <state x="177" y="0" key="SettingsEditor" timestamp="1577954683769">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="177" y="0" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1577936537888" />
-    <state x="292" y="93" key="Vcs.Push.Dialog.v2" timestamp="1576831240330">
+    <state x="177" y="0" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1577954683769" />
+    <state x="292" y="93" key="Vcs.Push.Dialog.v2" timestamp="1577954136534">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="292" y="93" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1576831240330" />
+    <state x="292" y="93" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1577954136534" />
     <state x="92" y="92" width="1416" height="676" key="dock-window-1" timestamp="1576740663860">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
