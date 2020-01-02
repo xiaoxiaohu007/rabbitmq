@@ -6,7 +6,7 @@ import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import org.example.util.MqConnectUtil;
 
-public class Send1 {
+public class Send2 {
     private static final String queue_name = "test_work_queue4";
     public static void main(String[] args) throws IOException, TimeoutException, InterruptedException {
         //1、建立连接
