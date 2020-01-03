@@ -11,7 +11,7 @@ import org.example.util.MqConnectUtil;
 
 public class GetMsg6BySend5 {
 
-    private static final String queue_name = "test_queue_name_email";
+    private static final String queue_name = "test_queue_name_email1";
     private static final String exchange_name = "test_exchange_fanout";
 
     public static void main(String[] args) throws IOException, TimeoutException {
@@ -34,13 +34,13 @@ public class GetMsg6BySend5 {
             public void handleDelivery(String consumerTag, Envelope envelope, BasicProperties properties, byte[] body)
                     throws IOException {
                 String message = new String(body, "UTF-8");
-                System.out.println(" get msg "+queue_name+" = " + message);
+                System.err.println(" get msg： "+queue_name+" = " + message);
                 try {
                     Thread.sleep(1000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 } finally {
-                    System.out.println("get msg "+queue_name+" done");
+                    System.err.println("get msg： "+queue_name+" done");
                     // 公平分发--- 消费完成后，需要做相关的回执信息
                     channel.basicAck(envelope.getDeliveryTag(), false);
                 }

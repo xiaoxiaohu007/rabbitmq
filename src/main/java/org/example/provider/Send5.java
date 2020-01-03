@@ -18,7 +18,7 @@ public class Send5 {
         //申明交换机(分发类型)
         channel.exchangeDeclare(exchange_name, BuiltinExchangeType.FANOUT);
         //发送消息
-        String msg = "hello world";
+        String msg = "hello world NB 克拉斯";
 
         System.err.println("发消息啦："+ msg);
         channel.basicPublish(exchange_name, "", null, msg.getBytes());
